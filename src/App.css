@@ -1,0 +1,17 @@
+#logo {
+    justify-self: left;
+    margin-left: 5%;
+    max-width: 50px
+  }
+  
+  * {
+    border: 0;
+    box-sizing: border-box;
+    font: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline
+  }
+  
