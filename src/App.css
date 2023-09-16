@@ -35,3 +35,25 @@
                           "footer footer footer footer";
     grid-template-columns: repeat(4, 1fr)
 }
+
+.imagem {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 10px 8em 10px 0
+}
+  
+.impactos {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0 2em;
+    text-align: justify
+}
