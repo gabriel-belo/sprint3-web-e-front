@@ -2,9 +2,9 @@
     justify-self: left;
     margin-left: 5%;
     max-width: 50px
-  }
+}
   
-  * {
+* {
     border: 0;
     box-sizing: border-box;
     font: inherit;
@@ -14,4 +14,24 @@
     padding: 0;
     vertical-align: baseline
   }
+
+.cep {
+    background-color: rgba(236, 235, 235, 0.719);
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: .5em;
+    text-decoration: none;
+    width: 300px
+}
   
+.grid-container {
+    display: grid;
+    grid-template-areas: "header header header header" 
+                          "nav nav nav nav"  
+                          "section section section section" 
+                          "section section section section" 
+                          "section section section section" 
+                          "footer footer footer footer";
+    grid-template-columns: repeat(4, 1fr)
+}
