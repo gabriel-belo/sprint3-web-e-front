@@ -31,8 +31,25 @@ function App() {
                     <Route path="/login" element={<Login />} />
                 </Routes>
             </BrowserRouter>
+             {/* ------------------------------------------------ */}
+
+
+
+            {/* <ConteudoColeta />
+
+            <ConteudoContato />
+
+            <ConteudoFuncionamento />
+
+            <ConteudoImpactos />
+
+            <ConteudoIndex />
+
+            <ConteudoSobre /> */}
+            
             <Rodape />
 
+            {/* ------------------------------------------------ */}
         </>
     )
 }
