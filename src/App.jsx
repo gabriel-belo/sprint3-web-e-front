@@ -11,8 +11,6 @@ import ConteudoIndex from './assets/components/ConteudoIndex'
 import ConteudoSobre from './assets/components/ConteudoSobre'
 import Login from './assets/components/Login'
 import Rodape from './assets/components/Rodape'
-import ResponsiveMenu from './assets/components/ResponsiveMenu';
-
 
 function App() {
 
@@ -33,7 +31,6 @@ function App() {
                     <Route path="/login" element={<Login />} />
                 </Routes>
             </BrowserRouter>
-            <ResponsiveMenu />
             <Rodape />
 
         </>

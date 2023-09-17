@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import Button from './Botaoo';
+import Button from './Botao';
 import Input from './Input';
 import LoginContainer from './LoginContainer';
 
